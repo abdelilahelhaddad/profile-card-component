@@ -111,3 +111,14 @@ body {
     }
   }
 }
+
+@media screen and (min-width:1440px) {
+  #main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("./images/bg-pattern-top.svg") no-repeat -65% 250%/978px,
+      url("./images/bg-pattern-bottom.svg") no-repeat 150% -245%/978px;
+  }
+}
